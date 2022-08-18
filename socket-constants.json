@@ -1,0 +1,24 @@
+{
+  "CHAT_ROOM": {
+    "NAME_SPACE": "/chat-rooms",
+    "ROOMS": {
+      "USER": "user-id-",
+      "OWNER": "owner-id-",
+      "CHAT_ROOM": "chat-room-id-"
+    },
+    "EVENTS": {
+      "TC": {
+        "ADD_CHAT_ROOM": "TC.CHAT_ROOM.ADD_CHAT_ROOM",
+        "UPDATE_CHAT_ROOM": "TC.CHAT_ROOM.UPDATE_CHAT_ROOM",
+        "ADD_MESSAGE": "TC.CHAT_ROOM.ADD_MESSAGE"
+      },
+      "TS": {
+        "READ_CHAT_ROOMS": "TS.CHAT_ROOM.READ_CHAT_ROOMS",
+        "READ_MESSAGES": "TS.CHAT_ROOM.READ_MESSAGES",
+        "ADD_MESSAGE": "TS.CHAT_ROOM.ADD_MESSAGE",
+        "PAY_FOR_CHAT_ROOM": "TS.CHAT_ROOM.PAY_FOR_CHAT_ROOM",
+        "READ_BY": "TS.CHAT_ROOM.READ_BY"
+      }
+    }
+  }
+}
